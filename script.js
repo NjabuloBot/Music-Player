@@ -5,7 +5,7 @@ const nextButton = document.getElementById("next");
 const previousButton = document.getElementById("previous");
 const shuffleButton = document.getElementById("shuffle");
 
-let allSongs = [
+const allSongs = [
    {
       id:0,
       title:"Scratching The Surface",
@@ -32,3 +32,5 @@ let allSongs = [
 ];
 
 const audio = new Audio();
+
+let userData = {};
