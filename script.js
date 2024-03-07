@@ -12,5 +12,13 @@ let allSongs = [
       artist:"Bhoza",
       duration:"4:25",
       src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/scratching-the-surface.mp3",
+   },
+   {
+      id: 1,
+      title: "Can't Stay Down",
+      artist: "Chopper",
+      duration: "4:15",
+      src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cant-stay-down.mp3",
+
    }
 ];
