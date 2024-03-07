@@ -55,4 +55,6 @@ const renderSongs = (array) =>{
 
 renderSongs(userData?.songs);
 
-const sortSongs = () =>{};
+const sortSongs = () =>{
+   userData?.songs.sort();
+};
