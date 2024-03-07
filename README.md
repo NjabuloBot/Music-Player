@@ -1,1 +1,1 @@
-#MUSIC PLAYER
+In this project, I have vreated a basic MP3 player using HTML, CSS, and JavaScript. The project covers fundamental concepts such as handling audio playback, managing a playlist, implementing play, pause, next, previous, and shuffle functionalities. I have learned how to dynamically update the user's interface based on the current song.
