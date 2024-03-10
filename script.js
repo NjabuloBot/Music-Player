@@ -89,3 +89,5 @@ const playSong = (id) =>{
    playButton.classList.add("playing");
    audio.play();
 }
+
+const pauseSong = () => {}
