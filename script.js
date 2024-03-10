@@ -53,7 +53,7 @@ const renderSongs = (array) =>{
    playlistSongs.innerHTML = songsHTML;
 };
 
-renderSongs(userData?.songs);
+renderSongs(sortSongs());
 
 const sortSongs = () =>{
    userData?.songs.sort((a,b) =>{
