@@ -90,4 +90,6 @@ const playSong = (id) =>{
    audio.play();
 }
 
-const pauseSong = () => {}
+const pauseSong = () => {
+   userData.songCurrentTime = audio.currentTime;
+}
