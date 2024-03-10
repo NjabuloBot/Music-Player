@@ -99,4 +99,6 @@ const pauseSong = () => {
    audio.pause();
 }
 
-const getCurrentSongIndex = () =>{}
+const getCurrentSongIndex = () =>{
+   return userData?.songs.indexOf(userData?.currentSong);
+}
