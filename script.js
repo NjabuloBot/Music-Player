@@ -60,6 +60,9 @@ playButton.addEventListener("click",() =>{
       playSong(userData?.currentSong.id)
    }
 });
+
+pauseButton.addEventListener("click",pauseSong);
+
 renderSongs(sortSongs());
 
 const sortSongs = () =>{
