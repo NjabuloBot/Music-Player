@@ -53,6 +53,7 @@ const renderSongs = (array) =>{
    playlistSongs.innerHTML = songsHTML;
 };
 
+playButton.addEventListener("click",() =>{});
 renderSongs(sortSongs());
 
 const sortSongs = () =>{
