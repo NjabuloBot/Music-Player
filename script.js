@@ -67,3 +67,7 @@ const sortSongs = () =>{
    });
    return userData?.songs;
 };
+
+const playSong = (id) =>{
+   
+}
