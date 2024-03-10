@@ -63,6 +63,8 @@ playButton.addEventListener("click",() =>{
 
 pauseButton.addEventListener("click",pauseSong);
 
+nextButton.addEventListener("click",playNextSong);
+
 renderSongs(sortSongs());
 
 const sortSongs = () =>{
@@ -112,3 +114,5 @@ const playNextSong = () =>{
       playSong(nextSong.id);
    }
 }
+
+const playPreviousSong= () =>{}
