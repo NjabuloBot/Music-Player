@@ -126,3 +126,7 @@ const playPreviousSong= () =>{
       playSong(previousSong.id);
    }
 }
+
+const highlightCurrentSong = ()=>{
+   const playlistSongElements = document.querySelectorAll(".playlist-song");
+}
