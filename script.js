@@ -138,3 +138,7 @@ const highlightCurrentSong = ()=>{
       songToHighlight.setAttribute("aria-current","true");
    }
 }
+
+const setPlayerDisplay = () =>{
+   
+}
