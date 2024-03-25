@@ -166,3 +166,7 @@ const shuffle = () =>{
 }
 
 shuffleButton.addEventListener("click",shuffle);
+
+const deleteSong = (id) =>{
+
+}
