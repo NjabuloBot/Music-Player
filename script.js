@@ -168,5 +168,5 @@ const shuffle = () =>{
 shuffleButton.addEventListener("click",shuffle);
 
 const deleteSong = (id) =>{
-
+   userData.songs = userData?.songs = userData?.songs.filter((song) => song.id !== id);
 }
